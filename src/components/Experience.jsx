@@ -50,8 +50,8 @@ export const Experience = () => {
           curvePoints[1].y,
           curvePoints[1].z
         ),
-        subtitle: `Welcome to Wawatmos,
-Have a seat and enjoy the ride!`,
+        subtitle: `Welcome to Voltrox HQ.
+        Get ready for an immersive flight of software development experience!`,
       },
       {
         cameraRailDist: 1.5,
@@ -61,8 +61,8 @@ Have a seat and enjoy the ride!`,
           curvePoints[2].z
         ),
         title: "Services",
-        subtitle: `Do you want a drink?
-We have a wide range of beverages!`,
+        subtitle: `Looking for cutting-edge solutions?
+        We provide a wide range of software services!`,
       },
       {
         cameraRailDist: -1,
@@ -71,8 +71,9 @@ We have a wide range of beverages!`,
           curvePoints[3].y,
           curvePoints[3].z
         ),
-        title: "Fear of flying?",
-        subtitle: `Our flight attendants will help you have a great journey`,
+        title: "Collaboration",
+        subtitle: `At Voltrox, we believe in teamwork.
+        Let's work together to bring your ideas to life!`,  
       },
       {
         cameraRailDist: 1.5,
@@ -81,8 +82,9 @@ We have a wide range of beverages!`,
           curvePoints[4].y,
           curvePoints[4].z - 12
         ),
-        title: "Movies",
-        subtitle: `We provide a large selection of medias, we highly recommend you Porco Rosso during the flight`,
+        title: "Innovation",
+        subtitle: `Stay ahead of the curve with our innovative solutions.
+        We strive to push the boundaries of technology!`,
       },
     ];
   }, []);
